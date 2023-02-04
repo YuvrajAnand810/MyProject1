@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(purple,white, rgb(0, 115, 255));
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#msg{
+    /* border: black solid; */
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(36, 35, 35);
+    top: 43%;
+    position: absolute;
+}
+html{
+    height: 100%;
+
+}

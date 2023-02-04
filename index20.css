@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("bg2.jpg") fixed center center;
+    background-size: cover;
+}
+
+
+.inn{
+    /* border: white solid 4px; */
+    position: absolute;
+    top:15%;
+    left: 60%;
+}
+
+h1{
+    font-size: 44px;
+    font-family: cursive;
+    text-decoration:underline;
+    text-decoration-color: rgb(212, 43, 156);
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.799);
+}
+
+
+
+input{
+    font-size: 20px;
+    width: 70%;
+    outline: 0;
+    border: none;
+    border-bottom: 2px rgb(212, 43, 156) solid;
+    background: none;
+    margin: 8px;
+    margin-left: 0;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+a{
+    color: rgb(34, 187, 238);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    /* border: wheat solid; */
+    margin-left: 3%;
+}
+a:hover{
+    color: aliceblue;
+}
+
+button{
+    cursor:pointer;
+    font-size: 22px;
+    font-weight: 530;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    background:none;
+    border: none;
+    width: 35%;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+    color: rgb(34, 187, 238);
+    /* border: white solid; */
+    /* text-decoration: underline; */
+    /* text-decoration-color: rgb(212, 43, 156); */
+}
+
+button:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
